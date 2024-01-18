@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# My-React-App
+
+A React based React Quiz Application where one can test their React knowledge by answering all questions. Once you start the quiz test your timer also gets started and within that time frame one need to answer all the questions , once given the answer switch to the next question and at last you'll get your score and highest score obtained till now, you can even restart the quiz test again (this quiz test is based on a fake API call).
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
