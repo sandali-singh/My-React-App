@@ -1,76 +1,59 @@
 # My-React-App
+My React App is a dynamic and responsive web application built with React
+
+![Screenshot (271)](https://github.com/sandali-singh/My-React-App/assets/72544086/b961a748-07de-403d-98c6-1ea6133f1da0)
+
+![Screenshot (272)](https://github.com/sandali-singh/My-React-App/assets/72544086/da1868c0-4116-42c3-8bfb-56045fd78c72)
+
+![Screenshot (274)](https://github.com/sandali-singh/My-React-App/assets/72544086/0948d4a4-46e4-4f4d-b978-3a6eafc5821d)
+
+## What it does
 
 A React based React Quiz Application where one can test their React knowledge by answering all questions. Once you start the quiz test your timer also gets started and within that time frame one need to answer all the questions , once given the answer switch to the next question and at last you'll get your score and highest score obtained till now, you can even restart the quiz test again (this quiz test is based on a fake API call).
 
 
+## Troubleshooting
+if in case having an error fetching the quiz question `npm run server` run this line of code.
+
+## Challenges we ran into
+- Making the platform’s UX smooth.
+
+## Tech Used
+
+<p align="left">
+<img src = "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src = "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
+<img src = "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+</p>
+
+## How to setup
+
+-   Fork the repo to your account
+
+-   Clone the forked repo to your local system using `git clone https://github.com/<your-username>/My-React-App`
+
+-   Connect your local repo to the upstream using `git remote add upstream https://github.com/<your-username>/My-React-App`
+
+-   Run `npm install` to install npm dependencies
+
+-   Run `npm start` to start the React application
+
+  
+
+## Support
+
+For any questions, issues, or feature requests, please open an issue on GitHub.
+
+## Contributing
+
+We welcome contributions! If you'd like to contribute to My React App.
 
 
+## How to contribute?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-   **DO NOT** make and push changes to the main branch!
 
-## Available Scripts
+-   **Always** keep your main/working branch in sync with the main repository `git pull upstream main` on the branch you are working on locally.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   **Always create a new branch** before making any changes `git checkout -b <new-branch-name>`, never ever make any changes directly on the master/main branch.
